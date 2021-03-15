@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bảng cửu trương</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let draw;
+    draw = "<table border='1' cellspacing='0' cellpadding='3'>";
+    for (let i=1;i<=9;i++){
+        draw=draw+"<tr>";
+        for (let j=2;j<=9;j++){
+            draw=draw + "<td>"+j+ "*" +i+ "=" +(j*i) +"</td>";
+        }draw=draw+"<tr>"
+    }draw=draw+"</table>"
+    document.write(draw)
+</script>
